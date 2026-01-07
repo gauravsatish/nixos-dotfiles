@@ -85,10 +85,6 @@
 
   # List services that you want to enable:
 
-  # ! GNOME
-  services.xserver.enable = true;
-  services.desktopManager.gnome.enable = true;
-  services.displayManager.gdm.enable = true;
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 

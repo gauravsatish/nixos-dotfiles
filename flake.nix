@@ -10,8 +10,7 @@
         self,
         nixpkgs,
         ...
-    }:
-    let
+    }: let
         lib = nixpkgs.lib;
     in {
         nixosConfigurations = {
